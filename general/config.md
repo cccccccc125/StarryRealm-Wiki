@@ -1,11 +1,5 @@
 # 🗒️ 設定檔
 
-> [🏠 首頁](../README.md) · [🔌 安裝](../install.md) · [💾 指令](commands.md) · [🧑‍⚖️ 權限](permissions.md) · [🏷️ 佔位符](placeholders.md) · **🗒️ 設定**
->
-> **副職業**：[⛏️ 採礦](../professions/mining.md) · [🪓 伐木](../professions/logging.md) · [🌾 耕作](../professions/farming.md) · [🎣 釣魚](../professions/fishing.md) · [🌿 草藥](../professions/herb.md) · [⚗️ 煉金](../professions/alchemy.md) · [🔨 鍛造](../professions/forging.md) · [✨ 刻印](../professions/enchanting.md)
->
-> **系統**：[🏝️ 空島](../systems/island.md) · [📊 圖鑑](../systems/collections.md) · [🗄️ 資料庫](../systems/database.md) · [🪵 品質素材](../systems/quality-materials.md) · [⭐ 強化](../systems/enhancement.md) · [🪨 礦物融合](../systems/ore-fusion.md)
-
 ## 目錄結構
 
 所有設定檔位於 `plugins/SubCareers/`：

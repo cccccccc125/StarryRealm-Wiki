@@ -1,11 +1,5 @@
 # 🌾 耕作 (Farming)
 
-> [🏠 首頁](../README.md) · [🔌 安裝](../install.md) · [💾 指令](../general/commands.md) · [🧑‍⚖️ 權限](../general/permissions.md) · [🏷️ 佔位符](../general/placeholders.md) · [🗒️ 設定](../general/config.md)
->
-> **副職業**：[⛏️ 採礦](mining.md) · [🪓 伐木](logging.md) · **🌾 耕作** · [🎣 釣魚](fishing.md) · [🌿 草藥](herb.md) · [⚗️ 煉金](alchemy.md) · [🔨 鍛造](forging.md) · [✨ 刻印](enchanting.md)
->
-> **系統**：[🏝️ 空島](../systems/island.md) · [📊 圖鑑](../systems/collections.md) · [🗄️ 資料庫](../systems/database.md) · [🪵 品質素材](../systems/quality-materials.md) · [⭐ 強化](../systems/enhancement.md) · [🪨 礦物融合](../systems/ore-fusion.md)
-
 ## 概述
 
 耕作系統取代原版農作物收穫。支援連鎖收穫、自動補種、鋤頭耐久保護。

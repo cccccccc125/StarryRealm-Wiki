@@ -1,11 +1,5 @@
 # 🗄️ 資料儲存系統
 
-> [🏠 首頁](../README.md) · [🔌 安裝](../install.md) · [💾 指令](../general/commands.md) · [🧑‍⚖️ 權限](../general/permissions.md) · [🏷️ 佔位符](../general/placeholders.md) · [🗒️ 設定](../general/config.md)
->
-> **副職業**：[⛏️ 採礦](../professions/mining.md) · [🪓 伐木](../professions/logging.md) · [🌾 耕作](../professions/farming.md) · [🎣 釣魚](../professions/fishing.md) · [🌿 草藥](../professions/herb.md) · [⚗️ 煉金](../professions/alchemy.md) · [🔨 鍛造](../professions/forging.md) · [✨ 刻印](../professions/enchanting.md)
->
-> **系統**：[🏝️ 空島](island.md) · [📊 圖鑑](collections.md) · **🗄️ 資料庫** · [🪵 品質素材](quality-materials.md) · [⭐ 強化](enhancement.md) · [🪨 礦物融合](ore-fusion.md)
-
 ## 雙模式設計
 
 SubCareers 支援兩種資料儲存模式，透過 `config.yml` 的 `storage-type` 切換。

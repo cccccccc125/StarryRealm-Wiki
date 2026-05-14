@@ -1,11 +1,5 @@
 # ⚗️ 煉金 (Alchemy)
 
-> [🏠 首頁](../README.md) · [🔌 安裝](../install.md) · [💾 指令](../general/commands.md) · [🧑‍⚖️ 權限](../general/permissions.md) · [🏷️ 佔位符](../general/placeholders.md) · [🗒️ 設定](../general/config.md)
->
-> **副職業**：[⛏️ 採礦](mining.md) · [🪓 伐木](logging.md) · [🌾 耕作](farming.md) · [🎣 釣魚](fishing.md) · [🌿 草藥](herb.md) · **⚗️ 煉金** · [🔨 鍛造](forging.md) · [✨ 刻印](enchanting.md)
->
-> **系統**：[🏝️ 空島](../systems/island.md) · [📊 圖鑑](../systems/collections.md) · [🗄️ 資料庫](../systems/database.md) · [🪵 品質素材](../systems/quality-materials.md) · [⭐ 強化](../systems/enhancement.md) · [🪨 礦物融合](../systems/ore-fusion.md)
-
 ## 概述
 
 三段式煉藥爐系統，搭配 QTE（Quick Time Event）小遊戲。玩家需學習配方、解鎖階級、投入正確材料與燃料才能成功煉製。

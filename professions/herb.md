@@ -1,11 +1,5 @@
 # 🌿 草藥 (Herb)
 
-> [🏠 首頁](../README.md) · [🔌 安裝](../install.md) · [💾 指令](../general/commands.md) · [🧑‍⚖️ 權限](../general/permissions.md) · [🏷️ 佔位符](../general/placeholders.md) · [🗒️ 設定](../general/config.md)
->
-> **副職業**：[⛏️ 採礦](mining.md) · [🪓 伐木](logging.md) · [🌾 耕作](farming.md) · [🎣 釣魚](fishing.md) · **🌿 草藥** · [⚗️ 煉金](alchemy.md) · [🔨 鍛造](forging.md) · [✨ 刻印](enchanting.md)
->
-> **系統**：[🏝️ 空島](../systems/island.md) · [📊 圖鑑](../systems/collections.md) · [🗄️ 資料庫](../systems/database.md) · [🪵 品質素材](../systems/quality-materials.md) · [⭐ 強化](../systems/enhancement.md) · [🪨 礦物融合](../systems/ore-fusion.md)
-
 ## 概述
 
 草藥系統包含兩種模式：**普通草藥**（單人蹲下採集）和**大型草藥**（多人協作攻擊式採集）。搭配 BossBar 進度條、重生冷卻、以及節氣加成。

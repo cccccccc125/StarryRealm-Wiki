@@ -1,11 +1,5 @@
 # 🪵 品質素材
 
-> [🏠 首頁](../README.md) · [🔌 安裝](../install.md) · [💾 指令](../general/commands.md) · [🧑‍⚖️ 權限](../general/permissions.md) · [🏷️ 佔位符](../general/placeholders.md) · [🗒️ 設定](../general/config.md)
->
-> **副職業**：[⛏️ 採礦](../professions/mining.md) · [🪓 伐木](../professions/logging.md) · [🌾 耕作](../professions/farming.md) · [🎣 釣魚](../professions/fishing.md) · [🌿 草藥](../professions/herb.md) · [⚗️ 煉金](../professions/alchemy.md) · [🔨 鍛造](../professions/forging.md) · [✨ 刻印](../professions/enchanting.md)
->
-> **系統**：[🏝️ 空島](island.md) · [📊 圖鑑](collections.md) · [🗄️ 資料庫](database.md) · **🪵 品質素材** · [⭐ 強化](enhancement.md) · [🪨 礦物融合](ore-fusion.md)
-
 ## 概述
 
 伐木與採礦時，有機率產出帶有品質標記的特殊素材。品質素材可用於鍛造，提升最終產出物品的數值倍率。

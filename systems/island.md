@@ -1,11 +1,5 @@
 # 🏝️ 空島系統
 
-> [🏠 首頁](../README.md) · [🔌 安裝](../install.md) · [💾 指令](../general/commands.md) · [🧑‍⚖️ 權限](../general/permissions.md) · [🏷️ 佔位符](../general/placeholders.md) · [🗒️ 設定](../general/config.md)
->
-> **副職業**：[⛏️ 採礦](../professions/mining.md) · [🪓 伐木](../professions/logging.md) · [🌾 耕作](../professions/farming.md) · [🎣 釣魚](../professions/fishing.md) · [🌿 草藥](../professions/herb.md) · [⚗️ 煉金](../professions/alchemy.md) · [🔨 鍛造](../professions/forging.md) · [✨ 刻印](../professions/enchanting.md)
->
-> **系統**：**🏝️ 空島** · [📊 圖鑑](collections.md) · [🗄️ 資料庫](database.md) · [🪵 品質素材](quality-materials.md) · [⭐ 強化](enhancement.md) · [🪨 礦物融合](ore-fusion.md)
-
 ## 概述
 
 每位玩家可擁有獨立的耕作空島。空島是一個無生物群系影響、永晝、和平難度的超平坦虛空世界，附帶基礎平台與起始物資。
