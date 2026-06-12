@@ -35,15 +35,46 @@
 | `/island invite <player>` | 邀請玩家（當次連線有效） |
 | `/island uninvite <player>` | 取消邀請 |
 | `/island kick <player>` | 踢出島上訪客 |
+| `/island reset` | 重置自己的空島（雙重確認後刪除並重建） |
+| `/island template` | 管理員：建立/編輯新島範本世界 |
 | `/island delete <player> [confirm]` | 管理員刪除玩家空島 |
 
 ## 權限
 
 | 權限 | 說明 |
 |------|------|
-| `subcareers.admin` | 執行 `/island delete` |
+| `subcareers.admin` | 執行 `/island delete` 與 `/island template` |
 
 其餘指令無需權限。
+
+## 範本世界（管理員）
+
+新玩家開島時若世界容器內存在 `islands/template` 資料夾，會**複製範本**而非程式生成，
+島嶼樣式完全由你手動設計。
+
+1. `/island template`——範本不存在時以預設島嶼（主島＋20×20 平地）為底自動建立，
+   並把你傳送進去；已存在則直接進入編輯。
+2. 在範本內自由建造（內容請控制在 ±50 邊界內，超出部分玩家到不了）。
+3. 用原版 `/setworldspawn` 站在想讓玩家出生的位置設定出生點（落點需在實心地面上）。
+4. `/island leave` 離開；範本無人 5 分鐘後自動卸載。
+
+複製細節：
+
+- 自動排除 `uid.dat`、`session.lock`、`playerdata/` 等執行期檔案，副本之間完全獨立。
+- 複製在非同步執行緒進行，不卡服；管理員正在範本內編輯時會先即時存檔再複製。
+- 沒有範本、或複製失敗時，自動退回程式生成——玩家一定拿得到島。
+- **既有玩家的島不受影響**，只有新建的島使用範本。
+
+## 自助重置（/island reset）
+
+玩家可自行刪除舊島並重新開始，**雙重確認**防止誤觸：
+
+1. `/island reset` → 顯示警告（將永久刪除島上所有建築與箱子內容）
+2. `/island reset confirm` → 最後警告
+3. **再輸入一次** `/island reset confirm` → 執行
+
+每一步限時 30 秒，逾時從頭來。重置成功後自動建立新島（有範本走範本）並傳送過去；
+舊島的自訂傳送點（tpset）一併清除。
 
 ## 世界管理
 

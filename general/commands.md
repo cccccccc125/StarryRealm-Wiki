@@ -41,11 +41,12 @@
 |------|------|------|
 | `/subcareers enhance` | 無 | 開啟裝備強化介面 |
 | `/subcareers starupgrade` | 無 | 開啟裝備升星介面 |
+| `/subcareers refine` | 無 | 開啟裝備精煉介面（100% 成功） |
 | `/subcareers fusion` | 無 | 開啟礦物融合介面 |
 | `/fusion` | 無 | 開啟礦物融合介面（快捷指令） |
 | `/subcareers givescroll <player> <類型>` | `subcareers.admin` | 給予強化消耗品 |
 
-強化消耗品類型：`blessing` / `probability` / `protection` / `anti_retreat` / `restoration` / `inheritance`
+強化消耗品類型：`lucky <1-10>`（機率石）/ `protection`（保護石）/ `anti_retreat`（防退石）/ `restoration`（復原石）/ `inheritance`（傳承石）/ `refine`（精煉石）
 
 ## 鍛造指令
 
@@ -115,4 +116,6 @@
 | `/island invite <player>` | 無 | 邀請玩家（僅當次連線有效） |
 | `/island uninvite <player>` | 無 | 取消邀請 |
 | `/island kick <player>` | 無 | 踢出島上訪客 |
+| `/island reset` | 無 | 重置自己的空島（雙重確認後刪除並重建） |
+| `/island template` | `subcareers.admin` | 建立/編輯新島範本世界 |
 | `/island delete <player> [confirm]` | `subcareers.admin` | 刪除玩家空島 |
