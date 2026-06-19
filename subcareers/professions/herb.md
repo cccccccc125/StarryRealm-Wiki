@@ -86,8 +86,6 @@ large_herbs:
 
 - 掉落物品（支援 `minecraft/`、`mmoitems/`、MONEY、EXP、MythicMobs 生怪）
 - MMOCore 草藥經驗
-- 圖鑑解鎖
-- 里程碑檢查
 
 ### 重生
 
@@ -142,7 +140,3 @@ term-multipliers:
 | 刻印 | 效果 |
 |------|------|
 | `herbalist` (藥感 Lv1-3) | 5/10/15% 經驗加成 |
-
-## 百草圖鑑
-
-打 `/subcareers` → 點選草藥 → 點選圖鑑，查看已採集的所有草藥種類。

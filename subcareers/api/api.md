@@ -18,7 +18,6 @@ public class SubCareers extends JavaPlugin {
 
     // === 資料層 ===
     public DatabaseManager getDatabaseManager()
-    public PlayerDataManager getPlayerDataManager()
     public FishingDataManager getFishingDataManager()
     public RecordManager getRecordManager()
 
@@ -31,55 +30,6 @@ public class SubCareers extends JavaPlugin {
 
     // === 經濟 ===
     public Economy getEconomy()    // Vault
-}
-```
-
-## PlayerDataManager — 玩家收集資料
-
-```java
-public class PlayerDataManager {
-
-    // 取得單一收集資料
-    public CareerCollectionData getCollectionData(UUID uuid, String career, String itemId)
-
-    // 取得職業所有收集
-    public Map<String, CareerCollectionData> getCareerCollection(UUID uuid, String career)
-
-    // 解鎖物品
-    public void unlockItem(UUID uuid, String career, String itemId)
-
-    // 鎖定物品（煉金 forget 用）
-    public void lockItem(UUID uuid, String career, String itemId)
-
-    // 更新最佳紀錄（只在更大時更新）
-    public void updateBestRecord(UUID uuid, String career, String itemId, double value)
-
-    // 強制寫入值（屬性用）
-    public void setMetaValue(UUID uuid, String career, String itemId, double value)
-
-    // 計算已解鎖數量（排除 _ 開頭的 meta key）
-    public int countUnlocked(UUID uuid, String career)
-
-    // 取得里程碑等級（每 10 個 +1）
-    public int getMilestoneLevel(UUID uuid, String career)
-
-    // 計數器（如 total_caught）
-    public double getCounter(UUID uuid, String career, String counterId)
-    public void incrementCounter(UUID uuid, String career, String counterId)
-}
-```
-
-## CareerCollectionData
-
-```java
-public class CareerCollectionData {
-    public UUID getUuid()
-    public String getCareer()
-    public String getItemId()
-    public boolean isUnlocked()
-    public void setUnlocked(boolean unlocked)
-    public double getBestRecord()
-    public void updateBestRecord(double value)  // 只在更大時更新
 }
 ```
 
@@ -132,18 +82,6 @@ public class FishbagManager {
 ```
 
 ## 使用範例
-
-### 檢查玩家是否解鎖某礦物
-
-```java
-SubCareers plugin = (SubCareers) Bukkit.getPluginManager().getPlugin("SubCareers");
-PlayerDataManager pdm = plugin.getPlayerDataManager();
-
-CareerCollectionData data = pdm.getCollectionData(player.getUniqueId(), "mining", "diamond_node");
-if (data != null && data.isUnlocked()) {
-    // 玩家已解鎖鑽石
-}
-```
 
 ### 給予附魔捲軸
 

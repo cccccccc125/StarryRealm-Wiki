@@ -62,7 +62,7 @@ BFS 連接所有相鄰的相同成熟作物（最多 64 塊），一次收穫。
 ### 經驗公式
 
 ```
-exp = baseExp × (1 + 0.1 × profLevel) × count × (1 + rarity) × (1 + cultivatorBoost) + (1 + 0.01 × milestone)
+exp = baseExp × (1 + 0.1 × profLevel) × count × (1 + rarity) × (1 + cultivatorBoost)
 ```
 
 | 參數 | 說明 |
@@ -71,7 +71,6 @@ exp = baseExp × (1 + 0.1 × profLevel) × count × (1 + rarity) × (1 + cultiva
 | `profLevel` | 玩家耕作職業等級（MMOCore） |
 | `count` | 收穫的作物數量 |
 | `rarity` | 該作物的稀有度加成（從 rarity 設定讀取） |
-| `milestone` | 圖鑑里程碑等級（以加法加成疊加） |
 | `cultivatorBoost` | cultivator 附魔等級 × 0.05 |
 
 ## 相關刻印
@@ -83,7 +82,3 @@ exp = baseExp × (1 + 0.1 × profLevel) × count × (1 + rarity) × (1 + cultiva
 | `double_harvest` (雙倍採集 Lv1-3) | 3/5/7% 機率雙倍掉落 |
 | `green_thumb` (綠手指 Lv1-3) | 5/10/15% 機率不消耗鋤頭耐久 |
 | `cultivator` (精耕 Lv1-3) | 5/10/15% 經驗加成 |
-
-## 農產品圖鑑
-
-打 `/subcareers` → 點選耕作 → 點選圖鑑，可查看已解鎖的作物種類。best_record 紀錄該作物的總收穫數量。

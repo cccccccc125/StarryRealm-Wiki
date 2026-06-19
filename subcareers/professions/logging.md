@@ -64,7 +64,7 @@ OAK_LOG、SPRUCE_LOG、BIRCH_LOG、JUNGLE_LOG、ACACIA_LOG、DARK_OAK_LOG、CHER
 ### 經驗公式
 
 ```
-exp = baseExp × (1 + 0.1 × profLevel) × count × chainMultiplier × (1 + foresterBoost) + (1 + 0.01 × milestone)
+exp = baseExp × (1 + 0.1 × profLevel) × count × chainMultiplier × (1 + foresterBoost)
 ```
 
 | 參數 | 說明 |
@@ -73,7 +73,6 @@ exp = baseExp × (1 + 0.1 × profLevel) × count × chainMultiplier × (1 + fore
 | `profLevel` | 玩家伐木職業等級（MMOCore） |
 | `count` | 破壞的原木數量 |
 | `chainMultiplier` | chain_gathering 連鎖 >1 塊時 = `chain-exp-multiplier`（預設 0.1），否則 1.0 |
-| `milestone` | 圖鑑里程碑等級（以加法加成疊加） |
 | `foresterBoost` | forester 附魔等級 × 0.05 |
 
 ## 相關刻印
@@ -83,7 +82,3 @@ exp = baseExp × (1 + 0.1 × profLevel) × count × chainMultiplier × (1 + fore
 | `chain_gathering` (連鎖採集) | 連鎖破壞整棵樹 |
 | `double_harvest` (雙倍採集 Lv1-3) | 3/5/7% 機率雙倍掉落 |
 | `forester` (伐木專精 Lv1-3) | 5/10/15% 經驗加成 |
-
-## 林木圖鑑
-
-打 `/subcareers` → 點選伐木 → 點選圖鑑，可查看已解鎖的原木種類。

@@ -36,11 +36,11 @@ enchantments:
 | 欄位 | 說明 |
 |------|------|
 | `name` | 顯示名稱 |
-| `description` | 圖鑑說明 |
+| `description` | 刻印說明文字 |
 | `lore-color` | 保留欄位（目前 lore 統一用原版灰色 §7） |
 | `scroll-material` | 卷軸物品類型（預設 `ENCHANTED_BOOK`） |
 | `scroll-custom-model-data` | 卷軸 CustomModelData |
-| `max-level` | **玩家正常途徑可達上限**（圖鑑與 tab 補完範圍） |
+| `max-level` | **玩家正常途徑可達上限**（顯示與 tab 補完範圍） |
 | `applicable-to` | 適用的工具材質列表 |
 | `anvil-cost` | 鐵砧花費等級 |
 | `chance-per-level` | 1..N 等的數值，超過 N 等用最後兩級差線性外推 |
@@ -56,7 +56,7 @@ enchantments:
 
 三個都是「該附魔自身的 max-level」→ 符合條件，鐵砧才會顯示刻印結果。
 
-> 未滿足條件時，鐵砧結果欄會顯示為空（無錯誤訊息）。圖鑑書本 lore 已標注此前置條件。
+> 未滿足條件時，鐵砧結果欄會顯示為空（無錯誤訊息）。刻印說明已標注此前置條件。
 
 ## 等級設計
 
@@ -150,7 +150,3 @@ enchantments:
 | `herbalist` | | | | | ✅ | |
 | `lifesteal` | | | | | | ✅ |
 | `auto_collect` | ✅ | ✅ | ✅ | | | |
-
-## 刻印圖鑑
-
-打 `/subcareers` → 點選刻印 → 點選刻印列表，查看所有刻印及其各等級效果。

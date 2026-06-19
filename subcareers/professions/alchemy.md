@@ -79,7 +79,6 @@ recipes:
 | 材料區 | 0-8（依階級） | Bottom 3 格、Middle 6 格、Top 9 格 |
 | 燃料槽 | 25 | 放入燃料物品 |
 | 開始按鈕 | 23 | 點擊開始煉製 |
-| 配方圖鑑 | 8 | 查看已學會的配方 |
 | QTE 區域 | 36-44 (9 格) | 溫度計來回移動 |
 
 ## QTE 小遊戲
@@ -104,11 +103,7 @@ recipes:
 
 ### 首次成功
 
-配方會自動解鎖（`learn`），可在配方圖鑑中查看。
-
-## 配方圖鑑（54 格）
-
-顯示所有已學會的配方及其材料組合。未知配方顯示灰色染料（CustomModelData: 999）。
+配方會自動解鎖（`learn`）。
 
 ## 學習與忘記
 
@@ -116,7 +111,7 @@ recipes:
 
 ```
 /alchemy learn <player> <recipe>    # 強制學習配方
-/alchemy forget <player> <recipe>   # 強制忘記配方（從 collection 中 lock）
+/alchemy forget <player> <recipe>   # 強制忘記配方
 ```
 
 ## 指令
@@ -125,4 +120,4 @@ recipes:
 
 ## Tier 追蹤
 
-玩家當前的煉藥爐階級儲存在 collection data 的 `_tier_` meta key 中。
+由插件儲存玩家當前的煉藥爐階級。

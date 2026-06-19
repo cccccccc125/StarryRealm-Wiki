@@ -26,7 +26,6 @@
 
 * **系統**
 * [🏝️ 空島](/subcareers/systems/island)
-* [📊 收集圖鑑](/subcareers/systems/collections)
 * [🗄️ 資料儲存](/subcareers/systems/database)
 * [🪵 品質素材](/subcareers/systems/quality-materials)
 * [⭐ 強化系統](/subcareers/systems/enhancement)
