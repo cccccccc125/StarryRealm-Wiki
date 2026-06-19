@@ -1,0 +1,8 @@
+* [⬅️ 回總站](/)
+* [🏠 TwoFactorAuth 首頁](/twofactorauth/)
+* [🔌 安裝](/twofactorauth/install)
+* [🔑 綁定與驗證流程](/twofactorauth/setup)
+* [💾 指令](/twofactorauth/commands)
+* [🧑‍⚖️ 權限](/twofactorauth/permissions)
+* [🗒️ 設定](/twofactorauth/config)
+* [📮 事件 API](/twofactorauth/events)
