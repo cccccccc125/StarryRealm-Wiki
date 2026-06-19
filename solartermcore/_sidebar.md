@@ -1,0 +1,8 @@
+* [⬅️ 回總站](/)
+* [🏠 SolarTermCore 首頁](/solartermcore/)
+* [🔌 安裝](/solartermcore/install)
+* [💾 指令](/solartermcore/commands)
+* [🌦️ 節氣與天氣](/solartermcore/weather)
+* [🏷️ 佔位符](/solartermcore/placeholders)
+* [🗒️ 設定](/solartermcore/config)
+* [📮 事件 API](/solartermcore/events)

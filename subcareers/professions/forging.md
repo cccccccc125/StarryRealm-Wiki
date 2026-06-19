@@ -149,7 +149,7 @@ finalScore = heatingScore × 0.35 + hammeringScore × 0.40 + quenchScore × 0.25
 
 ### 品質素材聯動
 
-使用[品質素材](../systems/quality-materials.md)作為鍛造原料時，輸出物品會附加數值倍率加成：
+使用[品質素材](/subcareers/systems/quality-materials.md)作為鍛造原料時，輸出物品會附加數值倍率加成：
 
 | 材料品質 | 數值倍率 |
 |:--:|:--:|

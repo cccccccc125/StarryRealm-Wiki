@@ -68,4 +68,4 @@ quality-materials:
 
 ## 鍛造聯動
 
-品質素材作為鍛造原料時，會依品質等級給予數值倍率加成，詳見[鍛造系統](../professions/forging.md#品質素材聯動)。
+品質素材作為鍛造原料時，會依品質等級給予數值倍率加成，詳見[鍛造系統](/subcareers/professions/forging.md#品質素材聯動)。

@@ -63,7 +63,7 @@ merchant:
 
 修改設定檔後執行 `/subcareers reload` 即可套用，不需重啟伺服器。
 
-部分檔案（如 `alchemy.yml`、`herb.yml`、`forging.yml`）有獨立的 reload 子指令，詳見 [💾 指令](commands.md)。
+部分檔案（如 `alchemy.yml`、`herb.yml`、`forging.yml`）有獨立的 reload 子指令，詳見 [💾 指令](/subcareers/general/commands.md)。
 
 ## 物品格式
 
