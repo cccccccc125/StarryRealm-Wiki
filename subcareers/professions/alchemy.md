@@ -121,7 +121,7 @@ recipes:
 
 ## 指令
 
-參見 [💾 指令](../general/commands.md) 的煉金部分。
+參見 [💾 指令](/subcareers/general/commands.md) 的煉金部分。
 
 ## Tier 追蹤
 

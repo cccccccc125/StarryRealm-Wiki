@@ -162,6 +162,6 @@ mining-power:
 
 ## 礦物融合
 
-採礦所得的礦物素材可透過礦物融合系統合成為高級材料，詳見[礦物融合](../systems/ore-fusion.md)。
+採礦所得的礦物素材可透過礦物融合系統合成為高級材料，詳見[礦物融合](/subcareers/systems/ore-fusion.md)。
 
 使用 `/fusion` 開啟融合介面。
