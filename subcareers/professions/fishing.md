@@ -2,7 +2,7 @@
 
 ## 概述
 
-完整的釣魚系統，包含釣竿客製化、魚種收集、魚袋儲存、魚商人販售、以及分解桶。
+完整的釣魚系統，包含釣竿客製化、魚袋儲存、魚商人販售、以及分解桶。
 
 ## 設定檔結構
 
@@ -182,7 +182,7 @@ achievements:
 ## 經驗公式
 
 ```
-exp = tierExp × (1 + 0.01 × milestone) × (1 + anglerBoost)
+exp = tierExp × (1 + anglerBoost)
 ```
 
 anglerBoost = angler 附魔等級 × 0.05

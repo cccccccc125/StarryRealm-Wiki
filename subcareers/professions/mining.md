@@ -85,7 +85,7 @@ nodes:
 
 ### 幸運屬性（Fortune）
 
-每個玩家有 `_fortune_` 屬性（儲存在 collection data 中）。計算公式：
+每個玩家有 fortune（幸運）屬性，計算公式：
 
 ```
 額外掉落率 = fortune × fortune-bonus-per-point (0.005)
@@ -95,15 +95,15 @@ nodes:
 
 ### 速度屬性（Speed）
 
-`_speed_` 屬性影響經驗加成倍率。
+速度屬性影響經驗加成倍率。
 
 ### 經驗公式
 
-每個節點計算一次，最後統一套用里程碑與礦脈感知：
+每個節點計算一次，最後統一套用礦脈感知：
 
 ```
 nodeExp   = baseExp × (1 + 0.1 × profLevel) × termMultiplier × speedMultiplier × chainMultiplier
-totalExp  = Σ(nodeExp) × (1 + veinBoost) + (1 + 0.01 × milestone)
+totalExp  = Σ(nodeExp) × (1 + veinBoost)
 ```
 
 | 參數 | 說明 |
@@ -114,7 +114,6 @@ totalExp  = Σ(nodeExp) × (1 + veinBoost) + (1 + 0.01 × milestone)
 | `speedMultiplier` | 速度屬性倍率 |
 | `chainMultiplier` | 連鎖挖掘時為 0.1（鼓勵單挖），否則為 1.0 |
 | `veinBoost` | vein_sense 附魔等級 × 0.05（Lv1=5%, Lv2=10%, Lv3=15%）|
-| `milestone` | 圖鑑里程碑等級（以加法加成疊加） |
 
 ### 礦力系統（Mining Power）
 
@@ -151,10 +150,6 @@ mining-power:
 | `chain_gathering` (連鎖採集) | 連鎖破壞相鄰礦石 |
 | `double_harvest` (雙倍採集 Lv1-3) | 3/5/7% 機率雙倍掉落 |
 | `vein_sense` (礦脈感知 Lv1-3) | 5/10/15% 經驗加成 |
-
-## 礦石圖鑑
-
-打 `/subcareers` → 點選採礦 → 點選圖鑑，可查看所有已解鎖礦石。解鎖 10 的倍數種礦石可獲得里程碑加成（每 10 種 +1% 永久經驗加成）。
 
 ## 節點重生
 

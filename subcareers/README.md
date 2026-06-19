@@ -2,7 +2,7 @@
 
 SubCareers 是一個 Minecraft RPG 副職業系統插件，基於 MMOCore + MMOItems + MythicLib + MythicMobs 建構。
 
-提供 **9 種副職業**（伐木、耕作、釣魚、採礦、草藥、煉金、鍛造、刻印），搭配自訂 GUI、收集圖鑑、里程碑系統、MySQL/YAML 雙重資料儲存，以及獨立的農場空島系統與強化/升星/礦物融合等進階系統。
+提供 **9 種副職業**（伐木、耕作、釣魚、採礦、草藥、煉金、鍛造、刻印），搭配自訂 GUI、MySQL/YAML 雙重資料儲存，以及獨立的農場空島系統與強化/升星/礦物融合等進階系統。
 
 ## 快速導覽
 
@@ -23,7 +23,7 @@ SubCareers 是一個 Minecraft RPG 副職業系統插件，基於 MMOCore + MMOI
 | [🌾 耕作](/subcareers/professions/farming.md) | 作物收穫、自動補種、鋤頭耐久 |
 | [🎣 釣魚](/subcareers/professions/fishing.md) | 釣魚力量、魚袋、魚商、分解桶 |
 | [🌿 草藥](/subcareers/professions/herb.md) | 蹲下採集、大型草藥協作、BossBar |
-| [⚗️ 煉金](/subcareers/professions/alchemy.md) | 三段式煉藥爐、QTE 小遊戲、配方圖鑑 |
+| [⚗️ 煉金](/subcareers/professions/alchemy.md) | 三段式煉藥爐、QTE 小遊戲 |
 | [🔨 鍛造](/subcareers/professions/forging.md) | 加熱/敲打/淬火三階段、品質評分 |
 | [✨ 刻印](/subcareers/professions/enchanting.md) | 11 種自訂刻印、鐵砧應用、PDC 儲存 |
 
@@ -32,7 +32,6 @@ SubCareers 是一個 Minecraft RPG 副職業系統插件，基於 MMOCore + MMOI
 | 系統 | 說明 |
 |------|------|
 | [🏝️ 空島](/subcareers/systems/island.md) | 個人耕作空島、邀請訪客 |
-| [📊 收集圖鑑](/subcareers/systems/collections.md) | 圖鑑解鎖、里程碑加成 |
 | [🗄️ 資料儲存](/subcareers/systems/database.md) | MySQL / YAML 雙模式、HikariCP 連線池 |
 | [🪵 品質素材](/subcareers/systems/quality-materials.md) | 伐木/採礦產出品質素材、鍛造數值加成 |
 | [⭐ 強化系統](/subcareers/systems/enhancement.md) | 裝備強化 +0~+20、升星 0~5 星 |
