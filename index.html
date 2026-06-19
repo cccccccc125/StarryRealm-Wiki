@@ -2,30 +2,33 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <title>SubCareers Wiki</title>
+  <title>玖域自製插件 Wiki</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="SubCareers Minecraft RPG 副職業插件文件">
+  <meta name="description" content="玖域（StarryRealm）自製 Minecraft 插件文件總站：EconomyCore、SubCareers、SolarTermCore、TwoFactorAuth">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
-    :root {
-      --theme-color: #42b983;
-    }
+    :root { --theme-color: #42b983; }
   </style>
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'SubCareers',
+      name: '玖域自製插件',
       repo: 'https://github.com/cccccccc125/SubCareers-Wiki',
       loadSidebar: true,
+      loadNavbar: true,
       subMaxLevel: 2,
       auto2top: true,
+      alias: {
+        '/.*/_navbar.md': '/_navbar.md'
+      },
       search: {
         placeholder: '搜尋文件...',
         noData: '找不到結果',
         depth: 6,
-      },
+        paths: 'auto'
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
