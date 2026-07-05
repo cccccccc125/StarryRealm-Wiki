@@ -29,7 +29,7 @@ softdepend，未安裝時僅略過註冊）。
 
 **`<profession>`（等級榜，8 種副職業，使用 MMOCore 職業鍵）：**
 
-`mining` / `logging` / `farming` / `fishing` / `herbalism`（草藥）/ `alchemy` / `forging` / `enchanting`
+`mining` / `logging` / `farming` / `fishing` / `herbalism`（草藥）/ `pharmaceutical`（製藥）/ `forging` / `enchanting`
 
 ## 職業等級榜的資料來源
 

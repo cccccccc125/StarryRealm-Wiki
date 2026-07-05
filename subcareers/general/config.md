@@ -7,8 +7,10 @@
 ```
 plugins/SubCareers/
 ├── config.yml                  # 主設定（MySQL / 魚商人）
-├── alchemy/
-│   └── alchemy.yml             # 煉藥爐 + 配方
+├── pharmaceutical/
+│   └── pharmaceutical.yml      # 製藥爐 + 配方（含每份費用 cost）
+├── enhancement.yml             # 強化機率/費用 + 升星/精煉費用 + 消耗品
+├── quality-materials.yml       # 品質素材定義
 ├── enchanting/
 │   └── enchanting.yml          # 附魔定義
 ├── farming/
@@ -19,8 +21,9 @@ plugins/SubCareers/
 │   ├── loot.yml                # 魚種掉落表
 │   └── regions.yml             # 釣魚區域
 ├── forging/
-│   ├── forging.yml             # 鍛造設定 + 配方
-│   └── forges.yml              # 已綁定鍛造站（自動管理）
+│   ├── forging.yml             # 鍛造設定 + 配方（含每次費用 cost）
+│   ├── stat-scaling.yml        # 強化/升星/精煉倍率
+│   └── forges.yml              # 已綁定鍛爐（自動管理）
 ├── herb/
 │   ├── herb.yml                # 草藥定義
 │   └── cooldowns.yml           # 大型草藥冷卻（自動管理）
@@ -38,8 +41,8 @@ plugins/SubCareers/
 ## 主設定 (`config.yml`)
 
 ```yaml
-# 儲存模式：yaml 或 mysql
-storage-type: yaml
+# 儲存模式：sqlite（預設，免架 DB）或 mysql
+storage-type: sqlite
 
 mysql:
   host: localhost
@@ -55,7 +58,7 @@ mysql:
     idle-timeout: 600000
 
 # 魚商人設定
-merchant:
+fish-merchant:
   npc-name: "FishMerchant"
 ```
 
@@ -63,7 +66,7 @@ merchant:
 
 修改設定檔後執行 `/subcareers reload` 即可套用，不需重啟伺服器。
 
-部分檔案（如 `alchemy.yml`、`herb.yml`、`forging.yml`）有獨立的 reload 子指令，詳見 [💾 指令](/subcareers/general/commands.md)。
+部分檔案（如 `pharmaceutical.yml`、`herb.yml`、`forging.yml`）有獨立的 reload 子指令，詳見 [💾 指令](/subcareers/general/commands.md)。
 
 ## 物品格式
 

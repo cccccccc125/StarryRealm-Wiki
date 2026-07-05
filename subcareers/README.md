@@ -23,8 +23,8 @@ SubCareers 是一個 Minecraft RPG 副職業系統插件，基於 MMOCore + MMOI
 | [🌾 耕作](/subcareers/professions/farming.md) | 作物收穫、自動補種、鋤頭耐久 |
 | [🎣 釣魚](/subcareers/professions/fishing.md) | 釣魚力量、魚袋、魚商、分解桶 |
 | [🌿 草藥](/subcareers/professions/herb.md) | 蹲下採集、大型草藥協作、BossBar |
-| [⚗️ 煉金](/subcareers/professions/alchemy.md) | 三段式煉藥爐、QTE 小遊戲 |
-| [🔨 鍛造](/subcareers/professions/forging.md) | 加熱/敲打/淬火三階段、品質評分 |
+| [⚗️ 製藥](/subcareers/professions/pharmaceutical.md) | 計時煉製、爐階/品質擲骰、藥方圖鑑 |
+| [🔨 鍛造](/subcareers/professions/forging.md) | 計時鍛造、材料決定品質、鍛造圖紙 |
 | [✨ 刻印](/subcareers/professions/enchanting.md) | 11 種自訂刻印、鐵砧應用、PDC 儲存 |
 
 ## 系統

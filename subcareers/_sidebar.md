@@ -18,7 +18,7 @@
 * [🌾 耕作](/subcareers/professions/farming)
 * [🎣 釣魚](/subcareers/professions/fishing)
 * [🌿 草藥](/subcareers/professions/herb)
-* [⚗️ 煉金](/subcareers/professions/alchemy)
+* [⚗️ 製藥](/subcareers/professions/pharmaceutical)
 * [🔨 鍛造](/subcareers/professions/forging)
 * [✨ 刻印](/subcareers/professions/enchanting)
 

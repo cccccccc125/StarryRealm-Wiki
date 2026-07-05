@@ -24,7 +24,7 @@
 | `fishing` | `釣魚` |
 | `mining` | `採礦` |
 | `herb` | `草藥` |
-| `alchemy` | `煉金` |
+| `pharma` | `製藥` |
 | `forging` | `鍛造` |
 | `enchanting` | `刻印` |
 
@@ -52,8 +52,8 @@
 
 | 指令 | 權限 | 說明 |
 |------|------|------|
-| `/subcareers forging bind` | `subcareers.admin` | 綁定鍛造站（點擊高爐） |
-| `/subcareers forging unbind` | `subcareers.admin` | 解除綁定 |
+| `/subcareers forging bind` | `subcareers.admin` | 登記鍛爐（看向高爐） |
+| `/subcareers forging unbind` | `subcareers.admin` | 取消登記 |
 | `/subcareers forging reload` | `subcareers.admin` | 重新載入鍛造配方 |
 | `/subcareers forging givehammer` | `subcareers.admin` | 給予鍛造錘 |
 
@@ -61,25 +61,30 @@
 
 | 指令 | 權限 | 說明 |
 |------|------|------|
-| `/forge bind` | `subcareers.admin` | 綁定鍛造站 |
-| `/forge unbind` | `subcareers.admin` | 解除綁定 |
-| `/forge reload` | `subcareers.admin` | 重新載入配方 |
+| `/forge bind` | `subcareers.admin` | 將面對的高爐登記為鍛爐 |
+| `/forge unbind` | `subcareers.admin` | 取消登記（鍛造中無法解除） |
+| `/forge learn <player> <recipe>` | `subcareers.admin` | 讓玩家學習配方 |
+| `/forge forget <player> <recipe>` | `subcareers.admin` | 讓玩家遺忘配方 |
+| `/forge giveblueprint <player> <recipe> [數量]` | `subcareers.admin` | 發放鍛造圖紙 |
+| `/forge list` | `subcareers.admin` | 列出配方與進行中的鍛造 |
+| `/forge reload` | `subcareers.admin` | 重新載入鍛造配方 |
 | `/forge help` | 無 | 顯示幫助 |
 
-## 煉金指令 `/alchemy`
+## 製藥指令 `/pharma`
 
 | 指令 | 權限 | 說明 |
 |------|------|------|
-| `/alchemy wand` | `alchemy.admin` | 取得選取工具（烈焰桿） |
-| `/alchemy create <bottom\|middle\|top> <name>` | `alchemy.admin` | 建立煉藥爐區域 |
-| `/alchemy delete <name>` | `alchemy.admin` | 刪除煉藥爐 |
-| `/alchemy learn <player> <recipe>` | `alchemy.admin` | 讓玩家學會配方 |
-| `/alchemy forget <player> <recipe>` | `alchemy.admin` | 讓玩家忘記配方 |
-| `/alchemy unlocktier <player> <bottom\|middle\|top>` | `alchemy.admin` | 解鎖玩家煉藥爐階級 |
-| `/alchemy checktier <player>` | `alchemy.admin` | 查詢玩家階級 |
-| `/alchemy list` | `alchemy.admin` | 列出所有煉藥爐與配方 |
-| `/alchemy reload` | `alchemy.admin` | 重新載入煉金設定 |
-| `/alchemy help` | 無 | 顯示幫助 |
+| `/pharma wand` | `pharma.admin` | 取得選取工具（框選製藥爐範圍） |
+| `/pharma create <bottom\|middle\|top> <name>` | `pharma.admin` | 建立製藥爐 |
+| `/pharma delete <name>` | `pharma.admin` | 刪除製藥爐（煉製中無法刪除） |
+| `/pharma learn <player> <recipe>` | `pharma.admin` | 讓玩家學習配方 |
+| `/pharma forget <player> <recipe>` | `pharma.admin` | 讓玩家遺忘配方 |
+| `/pharma giverecipe <player> <recipe> [數量]` | `pharma.admin` | 發放藥方書 |
+| `/pharma unlocktier <player> <bottom\|middle\|top>` | `pharma.admin` | 設定玩家解鎖的爐階 |
+| `/pharma checktier <player>` | `pharma.admin` | 查詢玩家當前解鎖的爐階 |
+| `/pharma list` | `pharma.admin` | 列出所有製藥爐與配方 |
+| `/pharma reload` | `pharma.admin` | 重新載入設定 |
+| `/pharma help` | 無 | 顯示幫助 |
 
 ## 草藥指令
 
