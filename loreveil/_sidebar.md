@@ -1,0 +1,6 @@
+* [⬅️ 回總站](/)
+* [🏠 LoreVeil 首頁](/loreveil/)
+* [🔌 安裝](/loreveil/install)
+* [💾 指令](/loreveil/commands)
+* [🧑‍⚖️ 權限](/loreveil/permissions)
+* [⚙️ 運作原理](/loreveil/how-it-works)

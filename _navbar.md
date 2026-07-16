@@ -7,3 +7,4 @@
   * [📖 JiuyuCompendium — 收集圖鑑](/jiuyucompendium/)
   * [🍲 JiuyuCuisine — 料理系統](/jiuyucuisine/)
   * [🏆 JuiyuAchievement — 成就系統](/juiyuachievement/)
+  * [🕶️ LoreVeil — 物品描述隱藏切換](/loreveil/)

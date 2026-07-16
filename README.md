@@ -13,6 +13,7 @@
 | 📖 **JiuyuCompendium** | 收集圖鑑：與內容互動（擊殺 MythicMobs、取得 MMOItems）自動解鎖條目，未解鎖顯示 ???，與成就系統連動 | [進入](/jiuyucompendium/) | ✅ |
 | 🍲 **JiuyuCuisine** | 料理系統：右鍵「釜」投入副職業產物比對食譜產出料理，食用觸發 MMOBuffs，熟練度影響成功率 | [進入](/jiuyucuisine/) | ✅ |
 | 🏆 **JuiyuAchievement** | 成就 + 圖鑑系統：整合擊殺/取得/等級/任務 5 大來源，含點數、稱號、商店與排行榜獎勵 | [進入](/juiyuachievement/) | ✅ |
+| 🕶️ **LoreVeil** | 玩家自行切換物品詳細描述顯示/隱藏，封包端改寫、純視覺零風險，容器 GUI 不受影響 | [進入](/loreveil/) | ✅ |
 
 ## 關於玖域
 
