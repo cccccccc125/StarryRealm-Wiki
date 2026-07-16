@@ -7,3 +7,4 @@
 * [📖 JiuyuCompendium](/jiuyucompendium/)
 * [🍲 JiuyuCuisine](/jiuyucuisine/)
 * [🏆 JuiyuAchievement](/juiyuachievement/)
+* [🕶️ LoreVeil](/loreveil/)
